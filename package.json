@@ -1,0 +1,23 @@
+{
+  "name": "sapling",
+  "version": "1.0.0",
+  "description": "The core of the idea is that file storage, testing, development progress, and team management can all be accomplished within this one application. The problem is that solutions exist for each of these issues but they tend to be over complicated, and not consolidated into one product.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celdridgeworks/Sapling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celdridgeworks/Sapling/issues"
+  },
+  "homepage": "https://github.com/celdridgeworks/Sapling#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
