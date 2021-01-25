@@ -1,0 +1,1396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project Name</title>
+  <link rel="icon" type="image/x-icon" href="images/EG.svg" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Font Awsome CSS -->
+  <link rel="stylesheet" href="font-awsome/font-awsome-v5.7.2.css">
+
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <!--Header Area Start -->
+
+  <header class="EG_header_area">
+    <div class="EG_desktop_header_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="mobile_nav_toggle" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="mob_filter_nav">
+              <button class="btn open_sidebar_toggle"><img src="images/icons/filter.png" alt="img"/></button>
+            </div>
+            <div class="eg_nav">
+              <ul>
+                <li>
+                  <a href="index.html"><img src="images/EG.svg" /></a>
+                </li>
+                <li>
+                  <a href="index.html">Profile</a>
+                </li>
+                <li>
+                  <a href="freelancer.html" class="active">Freelancers</a>
+                </li>
+                <li>
+                  <a href="#">Projects</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="mobile_logo">
+              <a href="#"><img src="images/EG.svg" /></a>
+            </div>
+            <div class="eg_desktop_search">
+              <form>
+                <input type="search" class="form-control" placeholder="Search">
+              </form>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="eg_header_notifications">
+              <ul>
+                <li class="nav-item dropdown eg_notification_nav">
+                  <a class="" href="#" id="nav_notification" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/icons/box.svg" alt="icon" />
+                    <span>3</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav_notification">
+                   <div class="eg_notification_box">
+                     <div class="eg_notification_head">
+                      <div class="d-flex justify-content-between">
+                        <h4>Notifications <span>3</span></h4>
+                        <a href="notifications.html">See all</a>
+                      </div>
+                     </div>
+                     <ul>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                     </ul>
+                   </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#chat_modal">
+                    <img src="images/icons/massege.svg" alt="icon" />
+                    <span>1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eg_nav eg_mobile_nav">
+      <ul>
+        <li>
+          <div class="eg_desktop_search">
+            <form>
+              <input type="search" class="form-control" placeholder="Search">
+            </form>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="active">Profile</a>
+        </li>
+        <li>
+          <a href="#">Freelancers</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--Witget Area Start -->
+
+  <div class="sitebar_area">
+    <div class="sitebar_mobile_head">
+      <div class="sitebar_mobile_head_box">
+        <div class="row">
+          <div class="col-4">
+            <div class="sitebar_mobile_back_btn">
+              <button class="btn open_sidebar_toggle"><img src="images/icons/back-arrow.png" alt="img"/></button>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="sitebar_mobile_logo">
+              <img src="images/EG-white.svg" alt="img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sitebar_box scroolbar_1">
+      <div class="siteber_header siteber_checkbox_area">
+        <div class="row">
+          <div class="col-4">
+            <label class="siteber_checkbox">Saved
+              <input type="checkbox" checked="checked" name="radio1">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="col-4">
+            <label class="siteber_checkbox">Blocked
+              <input type="checkbox" name="radio2">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="col-4">
+            <label class="siteber_checkbox">Contacted
+              <input type="checkbox" checked="checked" name="radio3">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="sitebar_list">
+        <h3>Freelancer Profile</h3>
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Industry
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+              <div class="card-body">
+                <ul class="sitebar_list_links">
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Skills
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+              <div class="card-body">
+                <ul class="sitebar_list_links">
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Salary
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+              <div class="card-body">
+                <ul class="sitebar_list_links">
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Years of Experience
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+              <div class="card-body">
+                <ul class="sitebar_list_links">
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sitebar_list border-0">
+        <h3>Location</h3>
+        <div class="siteber_checkbox_area">
+          <label class="siteber_checkbox">Onsite
+            <input type="checkbox" name="radio4">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="accordion not_active">
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Location
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
+              <div class="card-body">
+                <ul class="sitebar_list_links">
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                  <li>
+                    <a href="#">Link Here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="siteber_button_area">
+        <button type="button" class="btn">
+          Clear Search
+        </button>
+      </div>
+    </div>
+  </div>
+
+	<section class="freelance_witget_area">
+    <div class="freelance_witget_box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="freelancer_filter_area">
+              <div class="d-flex justify-content-between">
+                <div class="dropdown">
+                  <button class="btn" type="button" id="all-projects-filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All Projects <img src="images/icons/arrow-down.png" alt="img"/>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="all-projects-filter">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <span>Sort By:</span>
+                  <button class="btn" type="button" id="salaries-filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Salaries <img src="images/icons/arrow-down.png" alt="img"/>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="salaries-filter">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="freelance_user_area">
+              <div class="freelancer_user_box">
+                <div class="user_left_area">
+                  <div class="user_info_area">
+                    <div class="user_pic cursor_pointer" data-toggle="modal" data-target="#user_modal">
+                      <img src="images/img-1.png" alt="img"/>
+                    </div>
+                    <h4 class="cursor_pointer" data-toggle="modal" data-target="#user_modal">Vincent Luggers</h4>
+                    <p>O&G Lean Expert</p>
+                    <div class="user_ratting">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <span>(<a href="#">123</a>)</span>
+                    </div>
+                    <div class="user_external_link">
+                      <a href="#" data-toggle="modal" data-target="#user_modal">
+                        <img src="images/icons/external-link.svg" alt="img"/>
+                      </a>
+                    </div>
+
+                  </div>
+                  <div class="user_details">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="user_rate_details">
+                          <ul>
+                            <li>
+                              <img src="images/icons/map-marker.svg" alt="img"/>
+                              Houston, TX
+                            </li>
+                            <li>
+                              <img src="images/icons/clock.svg" alt="img"/>
+                              Exp 3 years
+                            </li>
+                            <li>
+                              <img src="images/icons/usd.svg" alt="img"/>
+                              $75.00/Hr
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="user_profile_comment">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user_right_area">
+                  <div class="user_checkboxes">
+                    <div class="d-flex justify-content-between">
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" checked="checked" name="">
+                      <span class="user_checkbox_txt">Star</span>
+                      <span class="checkmark"><i class="fas fa-heart"></i></span>
+                    </label>
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" name="">
+                      <span class="user_checkbox_txt">Hide</span>
+                      <span class="checkmark"><i class="fas fa-ban"></i></span>
+                    </label>
+                    </div>
+                  </div>
+                  <div class="search_usar_match">
+                    <h4>
+                      75%
+                      <span>Match</span>
+                    </h4>
+                    <div class="search_usar_match_note">
+                      <a href="#"><i class="fas fa-info-circle"></i></a>
+                    </div>
+                  </div>
+                  <div class="usar_contact_area">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/share.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/file.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="modal" data-target="#chat_modal">
+                          <img src="images/icons/comment-color.svg" alt="img"/>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="freelancer_user_box">
+                <div class="user_left_area">
+                  <div class="user_info_area">
+                    <div class="user_pic cursor_pointer" data-toggle="modal" data-target="#user_modal">
+                      <img src="images/img-1.png" alt="img"/>
+                    </div>
+                    <h4 class="cursor_pointer" data-toggle="modal" data-target="#user_modal">Vincent Luggers</h4>
+                    <p>O&G Lean Expert</p>
+                    <div class="user_ratting">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <span>(<a href="#">123</a>)</span>
+                    </div>
+                    <div class="user_external_link">
+                      <a href="#" data-toggle="modal" data-target="#user_modal">
+                        <img src="images/icons/external-link.svg" alt="img"/>
+                      </a>
+                    </div>
+
+                  </div>
+                  <div class="user_details">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="user_rate_details">
+                          <ul>
+                            <li>
+                              <img src="images/icons/map-marker.svg" alt="img"/>
+                              Houston, TX
+                            </li>
+                            <li>
+                              <img src="images/icons/clock.svg" alt="img"/>
+                              Exp 3 years
+                            </li>
+                            <li>
+                              <img src="images/icons/usd.svg" alt="img"/>
+                              $75.00/Hr
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="user_profile_comment">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user_right_area">
+                  <div class="user_checkboxes">
+                    <div class="d-flex justify-content-between">
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" checked="checked" name="">
+                      <span class="user_checkbox_txt">Star</span>
+                      <span class="checkmark"><i class="fas fa-heart"></i></span>
+                    </label>
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" name="">
+                      <span class="user_checkbox_txt">Hide</span>
+                      <span class="checkmark"><i class="fas fa-ban"></i></span>
+                    </label>
+                    </div>
+                  </div>
+                  <div class="search_usar_match">
+                    <h4>
+                      75%
+                      <span>Match</span>
+                    </h4>
+                    <div class="search_usar_match_note">
+                      <a href="#"><i class="fas fa-info-circle"></i></a>
+                    </div>
+                  </div>
+                  <div class="usar_contact_area">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/share.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/file.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="modal" data-target="#chat_modal">
+                          <img src="images/icons/comment-color.svg" alt="img"/>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="freelancer_user_box">
+                <div class="user_left_area">
+                  <div class="user_info_area">
+                    <div class="user_pic cursor_pointer" data-toggle="modal" data-target="#user_modal">
+                      <img src="images/img-1.png" alt="img"/>
+                    </div>
+                    <h4 class="cursor_pointer" data-toggle="modal" data-target="#user_modal">Vincent Luggers</h4>
+                    <p>O&G Lean Expert</p>
+                    <div class="user_ratting">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <span>(<a href="#">123</a>)</span>
+                    </div>
+                    <div class="user_external_link">
+                      <a href="#" data-toggle="modal" data-target="#user_modal">
+                        <img src="images/icons/external-link.svg" alt="img"/>
+                      </a>
+                    </div>
+
+                  </div>
+                  <div class="user_details">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="user_rate_details">
+                          <ul>
+                            <li>
+                              <img src="images/icons/map-marker.svg" alt="img"/>
+                              Houston, TX
+                            </li>
+                            <li>
+                              <img src="images/icons/clock.svg" alt="img"/>
+                              Exp 3 years
+                            </li>
+                            <li>
+                              <img src="images/icons/usd.svg" alt="img"/>
+                              $75.00/Hr
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="user_profile_comment">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user_right_area">
+                  <div class="user_checkboxes">
+                    <div class="d-flex justify-content-between">
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" checked="checked" name="">
+                      <span class="user_checkbox_txt">Star</span>
+                      <span class="checkmark"><i class="fas fa-heart"></i></span>
+                    </label>
+                    <label class="user_right_checkbox">
+                      <input type="checkbox" name="">
+                      <span class="user_checkbox_txt">Hide</span>
+                      <span class="checkmark"><i class="fas fa-ban"></i></span>
+                    </label>
+                    </div>
+                  </div>
+                  <div class="search_usar_match">
+                    <h4>
+                      75%
+                      <span>Match</span>
+                    </h4>
+                    <div class="search_usar_match_note">
+                      <a href="#"><i class="fas fa-info-circle"></i></a>
+                    </div>
+                  </div>
+                  <div class="usar_contact_area">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/share.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="images/icons/file.svg" alt="img"/>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="modal" data-target="#chat_modal">
+                          <img src="images/icons/comment-color.svg" alt="img"/>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</section>
+
+<!-- Modal Area -->
+<div class="modal fade chat_modal_area" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="chat_modal_comments_area">
+            <div class="chat_modal_comments scroolbar_1">
+              <div class="chat_comment_txt">
+                <div class="chat_comment_txt_pic">
+                  <img src="images/img-1.png" alt="img">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5>Vincen Luggers</h5>
+                  <span>8:00 AM</span>
+                </div>
+                <p>
+                  This is a message from Vincent on a quick chat module. If you close this at the top it removes the drawer.
+                </p>
+
+              </div>
+              <div class="chat_comment_txt_date">
+                <span>Today</span>
+              </div>
+              <div class="chat_comment_txt">
+                <div class="chat_comment_txt_pic">
+                  <img src="images/img-1.png" alt="img">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5>Me</h5>
+                  <span>8:00 AM</span>
+                </div>
+                <p>
+                  This is an answer from me as the company. We will probably not show a picture here, but a logo as we don’t yet have specific profiles. 
+                </p>
+              </div>
+              <div class="chat_comment_txt">
+                <div class="chat_comment_txt_pic">
+                  <img src="images/img-1.png" alt="img">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5>Vincen Luggers</h5>
+                  <span>8:30 AM</span>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+
+              </div>
+              <div class="chat_comment_txt">
+                <div class="chat_comment_txt_pic">
+                  <img src="images/img-1.png" alt="img">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h5>Me</h5>
+                  <span>8:32 AM</span>
+                </div>
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal_chat_footer">
+            <textarea class="form-control" rows="3" placeholder="Type here"></textarea>
+
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn clip_btn">
+                <img src="images/icons/paperclip.svg" alt="icon"/>
+              </button>
+              <button type="button" class="btn chat_submit_btn">Link to Project</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade eg_modal_area" id="user_modal" tabindex="-1" role="dialog" aria-labelledby="user_modalModalTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="eg_modal_body">
+          <div class="modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+
+          <div class="freelance_user_area">
+            <div class="freelancer_user_box">
+              <div class="user_left_area">
+                <div class="user_info_area">
+                  <div class="user_pic">
+                    <img src="images/img-1.png" alt="img"/>
+                  </div>
+                  <h4>Vincent Luggers</h4>
+                  <p>O&G Lean Expert</p>
+                  <div class="user_ratting">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(<a href="#">123</a>)</span>
+                  </div>
+                  <div class="user_external_link">
+                    <a href="#">
+                      <img src="images/icons/external-link.svg" alt="img"/>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="user_details modal_user_details">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="user_rate_details">
+                        <ul>
+                          <li>
+                            <img src="images/icons/usd.svg" alt="img"/>
+                            $75.00/Hr
+                          </li>
+                          <li class="text-center">
+                            <img src="images/icons/clock.svg" alt="img"/>
+                            Exp 3 years
+                          </li>
+                          <li class="text-right">
+                            <img src="images/icons/map-marker.svg" alt="img"/>
+                            Houston, TX
+                          </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="user_profile_comment">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="user_right_area">
+                <div class="user_checkboxes">
+                  <div class="d-flex justify-content-between">
+                  <label class="user_right_checkbox">
+                    <input type="checkbox" checked="checked" name="">
+                    <span class="user_checkbox_txt">Star</span>
+                    <span class="checkmark"><i class="fas fa-heart"></i></span>
+                  </label>
+                  <label class="user_right_checkbox">
+                    <input type="checkbox" name="">
+                    <span class="user_checkbox_txt">Hide</span>
+                    <span class="checkmark"><i class="fas fa-ban"></i></span>
+                  </label>
+                  </div>
+                </div>
+                <div class="search_usar_match">
+                  <h4>
+                    75%
+                    <span>Match</span>
+                  </h4>
+                  <div class="search_usar_match_note">
+                    <a href="#"><i class="fas fa-info-circle"></i></a>
+                  </div>
+                </div>
+                <div class="usar_contact_area">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <img src="images/icons/share.svg" alt="img"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="images/icons/file.svg" alt="img"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"  data-toggle="modal" data-target="#chat_modal">
+                        <img src="images/icons/comment-color.svg" alt="img"/>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+            <div class="eg_modal_content">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="General-tab" data-toggle="tab" href="#General" role="tab" aria-controls="General" aria-selected="true">General</a>
+                  <a class="nav-item nav-link" id="Education-tab" data-toggle="tab" href="#Education" role="tab" aria-controls="Education" aria-selected="false">Education</a>
+                  <a class="nav-item nav-link" id="Experience-tab" data-toggle="tab" href="#Experience" role="tab" aria-controls="Experience" aria-selected="false">Experience</a>
+                  <a class="nav-item nav-link" id="Ratings-tab" data-toggle="tab" href="#Ratings" role="tab" aria-controls="Ratings" aria-selected="false">Ratings</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="General" role="tabpanel" aria-labelledby="General-tab">
+                  <div class="eg_modal_txt_area">
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Summary
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <p>
+                              I provide lean, strategy and agile consulting services.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Skills
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <div>
+                              <p>
+                                C++, Java, Ruby on Rails, Programming frameworks, Another skill
+                              </p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Languages
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <div>
+                              <p>
+                                - English
+                              </p>
+                              <p>
+                                - French
+                              </p>
+                              <p>
+                                - German
+                              </p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Achievements
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <div>
+                              <p>
+                                - Name of an Achievement
+                              </p>
+                              <p>
+                                - Name of an Achievement
+                              </p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Publications & Patterns
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Education" role="tabpanel" aria-labelledby="Education-tab">
+                  <div class="eg_modal_txt_area">
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Certifications & Licences
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <p>
+                              - Lean Six Sigma Black Belt
+                            </p>
+                            <p>
+                              - Scrum Alliance Certified Scrum Master
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              School
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <div>
+                              <h4>Name of the School (2003 - 2004)</h4>
+                              <p>
+                                Name of the specialty Studied
+                              </p>
+                            </div>
+                            <div class="pt_20">
+                              <h4>Name of the School (2003 - 2004)</h4>
+                              <p>
+                                Name of the specialty Studied
+                              </p>
+                            </div>
+                            <div class="pt_20">
+                              <h4>Name of the School (2003 - 2004)</h4>
+                              <p>
+                                Name of the specialty Studied
+                              </p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Experience" role="tabpanel" aria-labelledby="Experience-tab">
+                  <div class="eg_modal_txt_area">
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Jan 2018
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <p>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </p>
+                            <h5>
+                              <span>Skill 1,</span>
+                              <span>Skill 2,</span>
+                              <span>Skill 3</span>
+                            </h5>
+                            <ul>
+                              <li>
+                                Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                              <li>
+                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                            </ul>
+                            <div class="eg_modal_txt_rating">
+                              <h4>
+                                Rating
+                                <span class="eg_rating_star_2">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                </span>
+                              </h4>
+                              <p>
+                                « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              Jan 2018
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <p>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </p>
+                            <h5>
+                              <span>Skill 1,</span>
+                              <span>Skill 2,</span>
+                              <span>Skill 3</span>
+                            </h5>
+                            <ul>
+                              <li>
+                                Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                              <li>
+                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt">
+                            <p>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Jan 2018
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <p>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </p>
+                            <h5>
+                              <span>Skill 1,</span>
+                              <span>Skill 2,</span>
+                              <span>Skill 3</span>
+                            </h5>
+                            <ul>
+                              <li>
+                                Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                              <li>
+                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </li>
+                            </ul>
+                            <div class="eg_modal_txt_rating">
+                              <h4>
+                                Rating
+                                <span class="eg_rating_star_2">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                </span>
+                              </h4>
+                              <p>
+                                « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Ratings" role="tabpanel" aria-labelledby="Ratings-tab">
+                  <div class="eg_modal_txt_area">
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eg_modal_txt_item">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="eg_modal_left_txt ratings_left_txt">
+                            <h5>
+                              <img src="images/EG.svg" width="24" alt="logo">
+                              Name of the company
+                            </h5>
+                            <p>Jan 2018</p>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="eg_modal_right_txt">
+                            <h4>Solution Consultant Business Analyst</h4>
+                            <div class="eg_rating_star_3">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p class="pt_10 txt_small">
+                              « Solution CoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/custom-select.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>

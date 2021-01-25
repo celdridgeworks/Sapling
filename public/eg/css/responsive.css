@@ -1,0 +1,556 @@
+
+@media only screen and (max-width: 1560px), only screen and (max-device-width: 1560px) {
+
+    .freelance_witget_area{
+        padding-left: 410px;
+    }
+    .freelance_witget_box{
+        margin: 0;
+    }
+    
+}
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+
+
+}
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+.eg_nav ul li:first-child {
+    padding-right: 10px;
+}
+.eg_nav ul li {
+    padding: 10px 3px;
+}
+.eg_header_notifications ul li {
+    padding: 10px 10px;
+}
+.kanban_item_box_amount ul li {
+    margin-left: 5px;
+}
+.project_kanban_witget_area .col-md-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.project_kanban_witget_area .row:before {
+    display: none;
+}
+.kanban_title {
+    border-bottom: 1px solid #c9c9c9;
+}
+.all_project_user_info .col-md-3 {
+    text-align: left !important;
+}
+.all_project_user_details_contact {
+    padding-top: 30px;
+    padding-left: 0px;
+}
+.proposal_link {
+    text-align: left;
+    padding-right: 0px;
+    padding-top: 30px;
+}
+.state_header_deadline {
+    padding-top: 15px;
+}
+.state_header_inprogress {
+    text-align: left;
+    padding-top: 10px;
+}
+.all_project_state_list {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.all_project_state_ratting {
+    padding: 0px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    
+    .user_right_area {
+        position: relative;
+        width: 100%;
+        height: 55px;
+        border-top: solid 1px #c9c9c9;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .freelancer_user_box {
+        padding-right: 0px;
+    }
+    .user_left_area {
+        border: none;
+        min-height: auto;
+    }
+    .search_usar_match {
+        width: 33%;
+        float: left;
+        padding: 6px 12px;
+        height: 55px;
+    }
+    .search_usar_match h4 {
+        font-size: 32px;
+        color: #60c07a;
+        line-height: 43px;
+    }
+    .user_checkboxes{
+        width: 33%;
+        float: left;
+        border-right: solid 1px #c9c9c9;
+        border-bottom: 0px;
+        height: 55px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .usar_contact_area{
+        width: 33%;
+        float: right;
+        position: relative;
+        border-top: none;
+        border-left: solid 1px #c9c9c9;
+    }
+    .usar_contact_area ul li {
+        height: 55px;
+    }
+    .user_right_checkbox .checkmark {
+        position: relative;
+        top: 0;
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 0;
+    }
+    .user_right_checkbox:hover input ~ .checkmark {
+        border: none;
+    }
+    .user_right_checkbox input:checked ~ .checkmark {
+        border: none;
+    }
+    .user_right_checkbox input:checked ~ .checkmark:after, .user_right_checkbox .checkmark:after{
+        display: none !important;
+    }
+    .user_checkbox_txt {
+        display: none !important;
+    }
+    .user_right_checkbox .checkmark i {
+        display: block !important;
+    }
+    .user_right_checkbox input:checked ~ .checkmark{
+        color: #4d4d4d;
+    }
+    .search_usar_match h4 span, .search_usar_match_note{
+        display: none !important;
+    }
+    .user_details .col-4{
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .user_details .col-8 {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .user_checkboxes .d-flex{
+        max-width: 72px;
+        margin: 0 auto;
+    }
+    .modal_user_details .col-4 {
+        
+    }
+    .modal_user_details ul li {
+        float: none;
+        width: 100%;
+        text-align: left !important;
+    }
+    .modal_user_details .col-8 {
+        display: block;
+    }
+    .eg_modal_area .modal-dialog {
+        margin: 46px auto;
+    }
+    .modal_close_btn {
+        position: absolute;
+        top: -37px;
+        right: -5px;
+    }
+    .user_external_link {
+        display: none;
+    }
+    .eg_modal_body .search_usar_match {
+        padding: 6px 12px;
+    }
+    .eg_modal_body .user_details {
+        padding-top: 0px;
+    }
+    .messages_sitebar_item_footer p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+    body {
+        padding-top: 62px;
+    }
+
+.EG_desktop_header_area{
+	padding: 0px 15px;
+}
+.EG_desktop_header_area {
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.eg_witget_area{
+    padding-top: 86px;
+}
+.eg_header_notifications {
+    padding-top: 0px;
+    white-space: nowrap;
+}
+.mobile_logo{
+    display: block;
+    padding-top: 10px;
+}
+.eg_desktop_search{
+    display: none;
+}
+.EG_header_area .col-5, .EG_header_area .col-2{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.eg_header_notifications ul li a img{
+    max-width: 23px;
+}
+.eg_header_notifications ul li a span {
+    right: -7px;
+    bottom: -7px;
+}
+.eg_nav{
+    position: fixed;
+    top: 0px;
+    left: -230px;
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    border-right: solid 1px #c9c9c9;
+    z-index: 100;
+    padding-top: 80px;
+    display: none;
+    transition: 0.4s;
+}
+.eg_nav ul li {
+    display: block;
+    padding: 10px 20px;
+}
+.eg_nav .eg_desktop_search{
+    display: block;
+}
+
+.eg_mobile_nav{
+	display: block;
+}
+.open_mobile_nav .eg_nav{
+    left: 0;
+    transition: 0.4s;
+}
+.mobile_nav_toggle{
+	display: inline-block;
+}
+.eg_desktop_search input {
+    padding: 5px 15px;
+    background: url(../images/icons/search.svg) left 10px center no-repeat;
+    background-size: 15px;
+    height: 40px;
+    border-radius: 2px;
+    border: solid 1px #c9c9c9;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #4d4d4d;
+    padding-left: 30px;
+}
+.eg_desktop_search input:focus{
+    border: solid 1px #c9c9c9;
+}
+.eg_nav ul li:first-child {
+    padding: 0px 15px;
+}
+.eg_desktop_search {
+    border: none;
+}
+.mobile_none{
+    display: none;
+}
+.eg_nav_tab .tab-pane {
+    padding: 0;
+}
+.eg_information_area .title_1 {
+    border: none !important;
+    padding-bottom: 0px !important;
+}
+.eg_loininfo_area, .eg_notifications_area{
+    padding: 15px;
+}
+.eg_notifications_area .info_list ul {
+    padding-top: 8px;
+}
+.eg_notifications_area .info_list ul li {
+    margin-top: 16px;
+}
+.plans_checkbox_area{
+    padding: 0px 15px;
+}
+.plans_box h4 {
+    font-size: 20px;
+    line-height: 27px;
+}
+.billing_area {
+    padding: 20px 15px 0px;
+}
+.billing_form_controlls .col-md-4 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.save_btn {
+    display: none;
+}
+.has_right_btn {
+    padding-right: 0px;
+}
+.desktop_tab_none{
+	display: inline-block !important;
+}
+.sitebar_area {
+    width: 100%;
+    max-width: 380px;
+    left: -380px;
+    transition: 0.4s;
+    z-index: 2000;
+    height: 100vh;
+    padding-top: 0px;
+}
+.sitebar_box{
+    height: calc(100vh - 120px);
+}
+.freelance_witget_area {
+    padding-left: 0px;
+}
+.mob_filter_nav{
+    display: inline-block;
+    top: -7px;
+    position: relative;
+    margin-left: 20px;
+}
+.mob_filter_nav button{
+    margin: 0;
+    padding: 0;
+}
+.mob_filter_nav button:focus{
+    box-shadow: none;
+}
+.open_mobile_sitebar{
+    left: 0px;
+    width: 100%;
+    max-width: 380px;
+    transition: 0.4s;
+}
+.sitebar_mobile_head{
+	display: block;
+}
+.sitebar_box {
+    padding: 0px 24px;
+}
+.eg_witget_area {
+    padding-top: 45px;
+}
+.modal_user_profile_comment{
+
+}
+.chat_modal_area {
+    width: 100%;
+    top: 0px;
+    left: 0;
+    margin-left: 0px;
+    z-index: 2050;
+}
+.chat_modal_area .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+}
+.chat_modal_box {
+    height: 100vh;
+}
+.chat_modal_top_logo {
+    display: block;
+}
+.chat_modal_close_btn {
+    top: 28px;
+}
+.massege_typer_area{
+    display: none;
+}
+
+.chat_mobile_open.show{
+	display: block !important;
+}
+
+.messages_sitebar_item_footer p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.messages_sitebar_box, .messages_witget_box{
+    height: auto;
+    border: none;
+}
+.messages_sitebar{
+    border: none;
+}
+.messages_sitebar .messages_sitebar_item:last-child{
+    border: none;
+}
+.project_kanban_witget_area .col-md-3 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.state_header_delivered {
+    text-align: left;
+}
+.project_download_link {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.all_project_state_bottom .col-md-6 {
+    text-align: center !important;
+}
+.all_project_state_bottom {
+    padding: 0px;
+}
+.proposal_area_head {
+    border-top: solid 1px #c9c9c9;
+}
+.user_past_project_list {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+
+    .eg_modal_txt_area .col-4, .eg_modal_txt_area .col-8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .eg_modal_right_txt {
+        padding-left: 24px;
+        padding-top: 10px;
+    }
+    .eg_modal_txt_item {
+        padding-top: 20px;
+    }
+    .ratings_left_txt p {
+        padding-left: 24px;
+    }
+    .eg_modal_area .modal-dialog {
+        margin: 46px auto;
+    }
+    .eg_modal_area{
+        padding: 0px 20px !important;
+    }
+    .all_project_form .col-md-5, .all_project_form .col-md-2 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+.all_project_form_down .justify-content-between{
+    display: block !important;
+}
+
+
+
+
+
+
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    
+    .user_rate_details ul li {
+        list-style-type: none;
+        font-size: 14px;
+        line-height: 1.88;
+        color: #909090;
+        line-height: 30px;
+        white-space: nowrap;
+    }
+    .user_checkboxes {
+        width: 25%;
+    }
+    .usar_contact_area {
+        width: 40%;
+    }
+    .search_usar_match {
+        width: 35%;
+    }
+    .user_right_checkbox {
+        padding-left: 15px;
+    }
+    .user_checkboxes .d-flex {
+        max-width: 56px;
+    }
+    .user_profile_comment p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .eg_modal_content .nav-tabs .nav-link {
+        margin: 0px 8px;
+        font-size: 14px;
+    }
+    .eg_modal_content .nav-tabs .nav-link.active:before {
+        height: 3px;
+    }
+    .modal_user_details .user_rate_details {
+        padding: 0px 15px 16px;
+    }
+    .eg_notification_box {
+        max-width: 350px;
+    }
+    .notification_witget_box {
+        width: 100%;
+        max-width: 100%;
+    }
+    .project_empty_box {
+        min-height: 100px;
+        padding: 30px 20px;
+    }
+    .all_project_form_down_right button{
+        width: 45% !important;
+        margin: 10px 2% 0px !important;
+    }
+    .all_project_title h2 {
+        font-size: 24px;
+    }
+    .all_project_form_down {
+        padding-top: 0px;
+    }
+    .invite_interview_btn, .hire_contractor_btn {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project Name</title>
+  <link rel="icon" type="image/x-icon" href="images/EG.svg" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Font Awsome CSS -->
+  <link rel="stylesheet" href="font-awsome/font-awsome-v5.7.2.css">
+
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="css/progress.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+  <!--Header Area Start -->
+
+  <header class="EG_header_area">
+    <div class="EG_desktop_header_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="mobile_nav_toggle" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="mob_filter_nav">
+              <button class="btn open_sidebar_toggle"><img src="images/icons/filter.png" alt="img"/></button>
+            </div>
+            <div class="eg_nav">
+              <ul>
+                <li>
+                  <a href="index.html"><img src="images/EG.svg" /></a>
+                </li>
+                <li>
+                  <a href="index.html">Profile</a>
+                </li>
+                <li>
+                  <a href="freelancer.html">Freelancers</a>
+                </li>
+                <li>
+                  <a href="#" class="active">Projects</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="mobile_logo">
+              <a href="#"><img src="images/EG.svg" /></a>
+            </div>
+            <div class="eg_desktop_search">
+              <form>
+                <input type="search" class="form-control" placeholder="Search">
+              </form>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="eg_header_notifications">
+              <ul>
+                <li class="nav-item dropdown eg_notification_nav">
+                  <a class="" href="#" id="nav_notification" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/icons/box.svg" alt="icon" />
+                    <span>3</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav_notification">
+                   <div class="eg_notification_box">
+                     <div class="eg_notification_head">
+                      <div class="d-flex justify-content-between">
+                        <h4>Notifications <span>3</span></h4>
+                        <a href="#">See all</a>
+                      </div>
+                     </div>
+                     <ul>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                     </ul>
+                   </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/icons/massege.svg" alt="icon" />
+                    <span>1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eg_nav eg_mobile_nav">
+      <ul>
+        <li>
+          <div class="eg_desktop_search">
+            <form>
+              <input type="search" class="form-control" placeholder="Search">
+            </form>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="active">Profile</a>
+        </li>
+        <li>
+          <a href="#">Freelancers</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+
+
+<!--Area Start -->
+
+<div class="modals_btns_area">
+
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#interview_modal_1">
+    Invite for Interview
+  </button>
+
+  <br/>
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#interview_modal_2">
+    Invite for Interview - 2
+  </button>
+  
+  <br/>
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiring_modal_1">
+    Hiring Process 1/2
+  </button>
+  
+  <br/>
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hiring_modal_2">
+    Hiring Process 2/2
+  </button>
+  
+  <br/>
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#congratulations_modal">
+    Congratulations!
+  </button>
+  
+  <br/>
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proposal_modal">
+    Proposal
+  </button>
+
+</div>
+
+
+
+
+
+
+
+<!-- Modal Area 1 -->
+
+<div class="modal fade chat_modal_area" id="interview_modal_1" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1">
+              <div class="modal_txt_1">
+                <h4>Invite for Interview</h4>
+                <p>
+                  Please inform the freelancer of a few times you have available so they can pick a correspondinging spot
+                </p>
+              </div>
+              <div class="modal_interview_date_time">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/calander-color.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Date</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/clock-yellow.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Time</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="interview_date_time_close">
+                  <button type="button" class="btn">
+                    <img src="images/icons/close.png" alt="img">
+                  </button>
+                </div>
+              </div>
+              <div class="modal_interview_date_time">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/calander-color.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Date</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/clock-yellow.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Time</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="interview_date_time_close">
+                  <button type="button" class="btn">
+                    <img src="images/icons/close.png" alt="img">
+                  </button>
+                </div>
+              </div>
+              <div class="modal_interview_date_time">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/calander-color.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Date</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group custom_select_group">
+                      <div class="custom-select-2 custom-select-calander">
+                        <div class="select_date_icon">
+                          <img src="images/icons/clock-yellow.svg" alt="img"/>
+                        </div>
+                        <select>
+                          <option>Pick Time</option>
+                          <option>#2</option>
+                          <option>#3</option>
+                          <option>#4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="interview_date_time_close">
+                  <button type="button" class="btn">
+                    <img src="images/icons/close.png" alt="img">
+                  </button>
+                </div>
+              </div>
+              <div class="add_links modal_interview_addlink">
+                <a href="#"><img src="images/icons/plus-color.png" alt="img"> Add Time Slot</a>
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="modal_down_button">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn cancel_btn_1">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn yellow_btn_1">Send Invite</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Area 2 -->
+
+<div class="modal fade chat_modal_area" id="interview_modal_2" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1">
+              <div class="modal_txt_1">
+                <h4>Start Interview</h4>
+                <p>
+                  Freelancer contact Info
+                </p>
+              </div>
+              <div class="modal_interview_note_area">
+                <div class="all_project_user_details_contact">
+                  <ul>
+                    <li>
+                      <img src="images/icons/call-color.png" alt="icon">
+                      (123) 345-8888
+                    </li>
+                    <li>
+                      <img src="images/icons/envelop-color.png" alt="icon">
+                      vincent@Luggers.com
+                    </li>
+                  </ul>
+                </div>
+                <textarea class="form-control interview_note_ta" rows="3" placeholder="Interview Notes"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="modal_down_button">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn cancel_btn_1">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn yellow_btn_1">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<!-- Modal Area 3 -->
+
+<div class="modal fade chat_modal_area" id="hiring_modal_1" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1">
+              <div class="modal_txt_1 text-left">
+                <h4>Hiring Process 1/2</h4>
+              </div>
+              <div class="modal_hiring_process_area">
+                <h4>Review Terms</h4>
+                <ul>
+                  <li>
+                    <span class="bg_gry">
+                      <img src="images/icons/usd-green.png" alt="img">
+                      Budget: $12,998
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="images/icons/clock-color.png" alt="img">
+                      Duration: 3 Months
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="images/icons/map-marker-color.png" alt="img">
+                      Houston, TX
+                    </span>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal_down_button">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn cancel_btn_1">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn yellow_btn_1">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<!-- Modal Area 4 -->
+
+<div class="modal fade chat_modal_area" id="hiring_modal_2" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1">
+              <div class="modal_txt_1 text-left">
+                <h4>Hiring Process 2/2</h4>
+              </div>
+              <div class="modal_hiring_process_area_2">
+                <h4>Review Deliverables</h4>
+                <ul>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                  </li>
+                </ul>
+                <div class="add_links modal_interview_addlink">
+                  <a href="#"><img src="images/icons/plus-color.png" alt="img"> Add Deliverable</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_down_button">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn back_btn_1">Back</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn yellow_btn_1">Save</button>
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn cancel_btn_1">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<!-- Modal Area 5 -->
+
+<div class="modal fade chat_modal_area" id="congratulations_modal" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>Title of the main activity job</p>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1 scroolbar_fh">
+              <div class="modal_txt_1">
+                <h4>Congratulations!</h4>
+                <p>You have completed the hiring process.</p>
+              </div>
+              <div class="modal_congratulation">
+                <img src="images/img-2.png" alt="img"/>
+                <div class="confirmation_box">
+                  <div class="d-flex justify-content-between">
+                    <h4>Contractor Confirmation:</h4>
+                    <h5>Pending</h5>
+                  </div>
+                  <p>
+                    Once the contractor confirm on his side, your project will automatically move to « in progress »
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal User Profile -->
+
+<div class="modal fade chat_modal_area" id="proposal_modal" tabindex="-1" role="dialog" aria-labelledby="chat_modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat_modal_box">
+          <div class="chat_modal_top_logo">
+            <a href="index.html"><img src="images/EG.svg"></a>
+          </div>
+          <div class="chat_modal_close_btn">
+            <button type="button" class="btn close_btn" data-dismiss="modal" aria-label="Close">
+              <img src="images/icons/close.png" alt="img">
+            </button>
+          </div>
+          <div class="chat_modal_head">
+            <div class="user_pic">
+              <img src="images/img-1.png" alt="img">
+            </div>
+            <h4>Vincent Luggers</h4>
+            <p>O&G Lean Expert</p>
+            <div class="user_ratting">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(<a href="#">123</a>)</span>
+            </div>
+            <div class="open_profile_link">
+              <a href="#">Open profile</a>
+            </div>
+          </div>
+          <div class="modal_scrool_body">
+            <div class="scroolbar_1 scroolbar_fh_2">
+              <div class="modal_txt_1 text-left">
+                <h4>Proposal</h4>
+              </div>
+              <div class="modal_proposal_terms_area">
+                <div class="d-flex justify-content-between">
+                  <h4>Terms</h4>
+                  <ul>
+                    <li>
+                      <span class="bg_gry">
+                        <img src="images/icons/usd-green.png" alt="img">
+                        Budget: $12,998
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="images/icons/clock-color.png" alt="img">
+                        Duration: 3 Months
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal_proposal_cover_latter">
+                <h4>Cover Letter</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 
+                </p>
+              </div>
+              <div class="proposal_area_buttons">
+                <div class="row">
+                  <div class="col-6">
+                    <button type="button" class="btn invite_interview_btn">Invite for Interview</button>
+                  </div>
+                  <div class="col-6">
+                    <button type="button" class="btn hire_contractor_btn">Hire Contractor</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/custom-select.js"></script>
+  <script src="js/custom.js"></script>
+  
+
+</body>
+
+</html>

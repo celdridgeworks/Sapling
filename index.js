@@ -1,24 +1,29 @@
-const express = require('express');
-const app = express();
-const port = 3000;
-const fs = require('fs');
-const path = require('path')
+const express = require('express')
+const app = express()
+const port = 3000
+const fs = require('fs')
 
-let body = ''
+const getDirectories = dir => 
+    fs.readdirSync(dir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name) 
+                                            
+console.log(getDirectories(__dirname + "/public"))
 
-function buildBody(){
-    fs.readSync(__dirname + '/public').forEach(function)
-}
-fs.readdir(__dirname+'/public', (err, files) =>{
-    files.forEach(file => {
-        if(path.extname(file) === '.html'){
-            body += '<li><a href="/'+file+'">' + file + '</a></li>'
-        }
+
+const buildBody = (fileArray) =>{
+    let body = ''
+    fileArray.forEach(file => {
+        body += '<li><a href="/'+file+'">' + file + '</a></li>'
     })
-})
+    return body;
+}
 
 function buildHTML(req) {
-    return '<!doctype html><html lang="en">' + '<body><h1>EnergyGigs File Server</h1>' + body + '</body></html>'
+    return '<!doctype html><html lang="en">' 
+    + '<body><h1>EnergyGigs File Server</h1>' 
+    + buildBody(getDirectories(__dirname + "/public")) 
+    + '</body></html>'
 }
 
 app.get('/', (req,res) => {

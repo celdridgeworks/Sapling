@@ -4,7 +4,8 @@
   "description": "The core of the idea is that file storage, testing, development progress, and team management can all be accomplished within this one application. The problem is that solutions exist for each of these issues but they tend to be over complicated, and not consolidated into one product.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",

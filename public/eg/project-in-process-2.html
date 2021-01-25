@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project Name</title>
+  <link rel="icon" type="image/x-icon" href="images/EG.svg" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Font Awsome CSS -->
+  <link rel="stylesheet" href="font-awsome/font-awsome-v5.7.2.css">
+
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="css/progress.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <!--Header Area Start -->
+
+  <header class="EG_header_area">
+    <div class="EG_desktop_header_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="mobile_nav_toggle" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="mob_filter_nav">
+              <button class="btn open_sidebar_toggle"><img src="images/icons/filter.png" alt="img"/></button>
+            </div>
+            <div class="eg_nav">
+              <ul>
+                <li>
+                  <a href="index.html"><img src="images/EG.svg" /></a>
+                </li>
+                <li>
+                  <a href="index.html">Profile</a>
+                </li>
+                <li>
+                  <a href="freelancer.html">Freelancers</a>
+                </li>
+                <li>
+                  <a href="#" class="active">Projects</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="mobile_logo">
+              <a href="#"><img src="images/EG.svg" /></a>
+            </div>
+            <div class="eg_desktop_search">
+              <form>
+                <input type="search" class="form-control" placeholder="Search">
+              </form>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="eg_header_notifications">
+              <ul>
+                <li class="nav-item dropdown eg_notification_nav">
+                  <a class="" href="#" id="nav_notification" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/icons/box.svg" alt="icon" />
+                    <span>3</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav_notification">
+                   <div class="eg_notification_box">
+                     <div class="eg_notification_head">
+                      <div class="d-flex justify-content-between">
+                        <h4>Notifications <span>3</span></h4>
+                        <a href="#">See all</a>
+                      </div>
+                     </div>
+                     <ul>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li class="eg_notification_yellow">
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                       <li>
+                          <div class="d-flex justify-content-between">
+                            <h4>Title for the notification</h4>
+                            <span>12.03.17 • 13:00 pm</span>
+                          </div>
+                          <p>You received a proposal from John Doe</p>
+                       </li>
+                     </ul>
+                   </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/icons/massege.svg" alt="icon" />
+                    <span>1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eg_nav eg_mobile_nav">
+      <ul>
+        <li>
+          <div class="eg_desktop_search">
+            <form>
+              <input type="search" class="form-control" placeholder="Search">
+            </form>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="active">Profile</a>
+        </li>
+        <li>
+          <a href="#">Freelancers</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+<!--Area Start -->
+
+<section class="all_project_witget_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="top_txt_area">
+          <p>
+            <a href="#"> All Projects</a> > Name of the project
+          </p>
+        </div>
+        <div class="all_project_box">
+          <div class="all_project_title">
+            <h3>This is the title of the project / Position <span class="inprogress_small">In process</span> </h3>
+          </div>
+          <div class="dropdown drop_area_2 po_right">
+            <a class="btn drop_btn_1 drop_horizontal" id="drop_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              •••
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="drop_1" x-placement="bottom-end" style="position: absolute; transform: translate3d(-140px, 30px, 0px); top: 0px; left: 0px; will-change: transform;">
+              <a class="dropdown-item" href="#">Mark as Unread</a>
+              <a class="dropdown-item delete_txt" href="#">Delete</a>
+            </div>
+          </div>
+          <div class="all_project_txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 
+            </p>
+          </div>
+          <div class="all_project_user_info">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="all_project_user_info_item">
+                  <img src="images/icons/usd-green.png" alt="img"/>
+                  Budget: $12,998
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="all_project_user_info_item">
+                  <img src="images/icons/exp.png" alt="img"/>
+                  Exp: 3 years
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="all_project_user_info_item">
+                  <img src="images/icons/clock-color.png" alt="img"/>
+                  Duration: 3 Months
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="all_project_user_info_item">
+                  <img src="images/icons/map-marker-color.png" alt="img"/>
+                  Houston, TX
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="all_project_user_details">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="all_project_user_details_info">
+                  <img src="images/img-1.png" alt="img"/>
+                  <h4>Vincent Luggers</h4>
+                  <p>Title of the main activity job</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="all_project_user_details_contact">
+                  <ul>
+                    <li>
+                      <img src="images/icons/call-color.png" alt="icon"/>
+                      (123) 345-8888
+                    </li>
+                    <li>
+                      <img src="images/icons/envelop-color.png" alt="icon"/>
+                      vincent@Luggers.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="proposal_link">
+                  <a href="#">
+                    <img src="images/icons/note-1.png" alt="icon"/>
+                    <span>Proposal</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="all_project_state_box">
+          <div class="all_project_state_header">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Project State</h3>
+              </div>
+              <div class="col-md-4">
+                <div class="state_header_deadline">
+                  <img src="images/icons/calander-color.png" alt="icon"/>
+                  Deadline: June 23, 2019
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="state_header_delivered">
+                  <h4>Delivered</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="all_project_state_main">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="all_project_state_list">
+                  <ul>
+                    <li class="active">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                    </li>
+                    <li class="active">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                    </li>
+                    <li class="active">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                    </li>
+                    <li class="active">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="all_project_state_ratting">
+                  <div class="progress progress_big_size progress_100">
+                    <span class="progress-left">
+                        <span class="progress-bar progress_green"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar progress_green"></span>
+                    </span>
+                    <div class="progress-value">100%</div>
+                  </div>
+                  <div class="project_download_link">
+                    <button type="button" class="btn"> <img src="images/icons/download-color.svg" alt="icon"/> Download Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="all_project_state_bottom">
+            <div class="row">
+              <div class="col-md-6">
+                <button type="button" class="btn decline_btn">Decline project</button>
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn accept_btn">Accept Project</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/custom-select.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
